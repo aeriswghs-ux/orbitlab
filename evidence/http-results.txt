@@ -1,0 +1,22 @@
+
+> orbitlab-educational@0.1.0 smoke
+> node scripts/smoke.mjs
+
+PASS 200 /
+PASS 200 /lessons/
+PASS 200 /lessons/gravity/
+PASS 200 /lessons/circular-orbits/
+PASS 200 /lessons/elliptical-orbits/
+PASS 200 /lessons/keplers-laws/
+PASS 200 /lessons/orbital-elements/
+PASS 200 /about/
+PASS 200 /assets/app.mjs
+PASS 200 /assets/physics.mjs
+PASS 200 /assets/styles.css
+PASS 200 /assets/social.png
+PASS 200 /sitemap.xml
+PASS 200 /robots.txt
+PASS directory redirect
+PASS unknown path returns 404
+PASS module content type
+17 HTTP checks passed.

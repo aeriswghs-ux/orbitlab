@@ -1,0 +1,6 @@
+{
+  "name": "orbitlab-educational", "version": "0.1.0", "private": true,
+  "description": "An independent student orbital mechanics fieldbook and simulator",
+  "type": "module", "engines": {"node": ">=22"},
+  "scripts": {"build": "node scripts/build.mjs", "start": "node scripts/serve.mjs", "dev": "node scripts/build.mjs && node scripts/serve.mjs", "test": "node --test tests/*.test.mjs", "verify": "npm run build && npm test", "smoke": "node scripts/smoke.mjs"}
+}

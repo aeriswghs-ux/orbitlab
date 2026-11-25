@@ -1,0 +1,13 @@
+quantity,unit,baseline,current
+semi_major_axis,km,12000,12000
+eccentricity,1,0.4,0.4
+inclination,deg,0,0
+perigee_altitude,km,828.9916000000003,828.9916000000003
+apogee_altitude,km,10428.991600000001,10428.991600000001
+period,s,13082.26231461939,13082.26231461939
+perigee_speed,km/s,8.80372876896331,8.80372876896331
+current_time,s,,0
+current_altitude,km,,828.9916000000003
+current_speed,km/s,,8.803728768963309
+earth_mu,km^3/s^2,,398600.435507
+earth_radius,km,,6371.0084

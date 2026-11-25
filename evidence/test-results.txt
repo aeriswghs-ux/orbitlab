@@ -1,0 +1,38 @@
+
+> orbitlab-educational@0.1.0 verify
+> npm run build && npm test
+
+
+> orbitlab-educational@0.1.0 build
+> node scripts/build.mjs
+
+Built 8 static pages. Canonical base: https://orbitlab.example. PREVIEW: indexing disabled.
+
+> orbitlab-educational@0.1.0 test
+> node --test tests/*.test.mjs
+
+✔ 400 km circular reference: independent rounded calculator values (3.1844ms)
+✔ Kepler residual across eccentricities, negative time and multiple revolutions (0.636ms)
+✔ position closes after a period; apsides and speeds match analytic relations (0.4325ms)
+✔ energy and angular momentum remain constant at 101 orbital phases (2.1407ms)
+✔ equal swept areas independently integrated from polygon cross products (18.6827ms)
+✔ Kepler third law: doubling a multiplies T by sqrt(8), independent of e (0.2397ms)
+✔ inclination projection preserves 3D radius and has correct polar/retrograde limits (1.2678ms)
+✔ physical perigee speed reconstruction keeps rp fixed across supported boundaries (0.5279ms)
+✔ guardrails reject unsafe, unbound, nonfinite, and unit-confused inputs (1.0134ms)
+✔ independent RK4 trajectory agrees with Kepler propagation over a full orbit (86.978ms)
+ℹ a=6771.0084 km e=0: max position error 3.9575e-10 km; velocity 3.9530e-13 km/s
+ℹ a=12000 km e=0.4: max position error 6.9802e-10 km; velocity 2.0059e-13 km/s
+ℹ a=40000 km e=0.8: max position error 2.9750e-5 km; velocity 1.9660e-8 km/s
+✔ all static pages have unique metadata, semantics, and valid JSON-LD (37.936ms)
+✔ every local static link, stylesheet, script, image and fragment resolves (157.9887ms)
+✔ sitemap, robots, card dimensions and performance budget (7.8825ms)
+✔ five lesson quizzes have explanations and valid distinct choices (0.4679ms)
+ℹ tests 14
+ℹ suites 0
+ℹ pass 14
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 376.4033
