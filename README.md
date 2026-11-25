@@ -1,6 +1,8 @@
 # OrbitLab Educational v0.1
 
-A separate student-friendly orbital mechanics web application. Explore ideal Earth orbits, predict changes, compare measurements, and work through five lessons. This project is independent of AeroLab. Nothing in this delivery has been published or deployed.
+A separate student-friendly orbital mechanics web application. Explore ideal Earth orbits, predict changes, compare measurements, and work through five lessons. This project is independent of AeroLab.
+
+Source repository: [aeriswghs-ux/orbitlab](https://github.com/aeriswghs-ux/orbitlab). The website is not deployed; run the demo locally using the instructions below.
 
 ## Run locally
 
@@ -71,6 +73,6 @@ Eight static pages plus a 404 page, unique titles/descriptions, canonical links,
 
 ## Repository status
 
-Prepared as a standalone local repository with no remote. No existing repository was changed. Publishing, adding a remote, deployment, and choosing a public license are separate decisions. No third-party simulator code or media is bundled. Attribution links are informational and do not imply endorsement.
+Published as a standalone source repository, separate from the AeroLab and portfolio repositories. Website deployment and choosing a public license remain separate decisions. No third-party simulator code or media is bundled. Attribution links are informational and do not imply endorsement.
 
 See [CHANGELOG.md](CHANGELOG.md), [RESEARCH.md](RESEARCH.md), and [DESIGN.md](DESIGN.md).
